@@ -1,4 +1,4 @@
-# Esethu Pakosi Portfolio Website
+# Esethu Pakosi Portfolio Website  https://esethu-pakosi.github.io/Shadowfox_Esethu-Pakosi-Portfolio/
 
 Welcome to my personal portfolio website! Here, I showcase my skills, projects, and a brief introduction.
 
