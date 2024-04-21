@@ -1,89 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Portfolio</title>
-<link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esethu Pakosi:</title>
+    <meta name="description" content="Esethu Pakosi's portfolio homework 3 showcases her work as a frontend developer, featuring projects and contact information.Explore her innovative projects and get in touch for collaboration opportunities."/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="project.css"/>
 </head>
-<body class="box">
-<div class="sidebar">
-  <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
-  <div class="sidebar-content">
-    <ul>
-      <li><a href="./index.html">Home🏠</a></li>
-      <li><a href="./about.html">About Me😊</a></li>
-      <li><a href="./projects.html">Projects💻</a></li>
-      <li><a href="./contact.html">Contact☎️</a></li>
-    </ul>
-  </div>
-</div>
-<div class="top-footer"></div>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto justify-content-center"></ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="projects.html "data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact me</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
 <h3>My Projects</h3>
-<h4 id="individual">Individual</h4>
-<div class="images" id="individual">
-  <div class="project-image">
-    <img src="./images/weather.png" alt="weather-app" />
-    <div class="caption">
-      <a href="https://esethu-pakosi.github.io/EsethuPakosi-final-project/" target="_blank">
-        <strong>Weather App:</strong>
-      </a>
-      Stay Ahead with Accurate Forecasts
-    </div>
-  </div>
-  <div class="project-image">
-    <img src="./images/fav.png" alt="favourites" width="220px" />
-    <div class="caption">
-      <a href="https://esethu-pakosi.github.io/Main-html-project/" target="_blank">
-        <strong>Exploring My Favorites:</strong>
-      </a>
-      Join me on a journey through my favorites
-    </div>
-  </div>
+<div class="individual-box">
+    <h4 id="individual">Individual</h4>
 </div>
-<h5 id="collaboration">Collaboration</h5>
-<div class="images">
-  <div class="project-image">
-    <img src="./images/hackathon.png" alt="gender bias checker" width="220px" />
+<div class="individual-line"></div>
+    <div class="projects">
+    <div class="content">
+    <div class="images" id="individual">
+    <div class="project-image">
+        <img src="images/project.png" alt="project"/>
     <div class="caption">
-      <a href="https://esethu-pakosi.github.io/girl-code-hackathon/" target="_blank">
-        <strong>Promoting Fairness in AI:</strong>
-      </a>
-      Assess and Mitigate Gender Bias in AI Models
+        <a href="https://main--esethupakosi-shecodes-homework.netlify.app/" target="_blank"><strong>My project</strong></a>
+        <p class="project-description">SheCodes Foundation Homework showcasing my skills. It includes responsive web designs, JavaScript applications, SEO and more. Built with HTML5, CSS, and JavaScript.</p> <!-- Add your project description here -->
     </div>
-  </div>
-  <div class="project-image">
-    <img src="./images/mars.png" alt="mars" width="220px" />
+    </div>
+    
+    <div class="project-image">
+        <img src="images/weather.png" alt="weather-app"/>
+        <div class="caption">
+            <a href="https://esethu-pakosi.github.io/EsethuPakosi-final-project/" target="_blank"> <strong>Weather App</strong></a>
+            <p class="project-description">Share your creation proudly! With my weather app, you're always prepared. Get instant updates on your city's weather for the next 6 days and conquer any forecast!</p> <!-- Add your project description here -->
+        </div>
+    </div>
+    <div class="project-image">
+        <img src="images/fav.png" alt="favourites" width="220px"/>
     <div class="caption">
-      <a href="https://bilal-dollan.github.io/kreativstorm2nd/" target="_blank">
-        <strong>Discover Mars:</strong>
-      </a>
-      Embark on a journey beyond imagination
+        <a href="https://esethu-pakosi.github.io/Main-html-project/" target="_blank"><strong>Exploring My Favorites</strong></a>
+        <p class="project-description">Explore my interests through hobby, book, and movie pages. Whether it's coding, enjoying the beach, diving into a book, or simply relaxing at home, there's something for everyone.</p> <!-- Add your project description here -->
     </div>
-  </div>
-  <div class="project-image">
-    <img src="./images/calculator.png" alt="calculator" width="220px" />
-    <div class="caption">
-      <a href="https://tulipreactjsmain.github.io/Kreativestorm4th/" target="_blank">
-        <strong>Calculate with ease:</strong>
-      </a>
-      Try our simple calculator now
     </div>
-  </div>
-  <div class="project-image">
-    <img src="./images/game.png" alt="game" width="220px" />
-    <div class="caption">
-      <a href="https://tulipreactjsmain.github.io/kreativstorm3rd/" target="_blank">
-        <strong>Rock, Paper, Scissors Game:</strong>
-      </a>
-      Choose your move and see if you can beat the computer
-    </div>
-  </div>
 </div>
-<a href="./about.html" class="button">..Prev</a>
-</div>
-<a href="./contact.html" class="button">Next...</a>
-<script src="./script.js"></script>
-<div class="footer"></div>
+
+    <<div class="collaboration-container">
+        <div class="collaboration-box">
+            <h4 id="collaboration">Collaboration</h4>
+        </div>
+        <div class="collaboration-line"></div>
+    <div class="project-image">
+        <img src="./images/hackathon.png" alt="gender bias checker" width="220px"/>
+        <div class="caption">
+        <a href="https://esethu-pakosi.github.io/girl-code-hackathon/" target="_blank"><strong>Promoting Fairness in AI</strong></a>
+        <p class="project-description">Winning second place in a hackathon, our team proudly presented 'Gender Bias Checker,' a tool to assess and mitigate AI gender bias effectively.</p> <!-- Add your project description here -->
+    </div>
+    </div>
+    <div class="project-image">
+        <img src="./images/mars.png" alt="mars" width="220px"/>
+    <div class="caption">
+        <a href="https://bilal-dollan.github.io/kreativstorm2nd/" target="_blank"><strong>Discover Mars</strong></a>
+        <p class="project-description">Step into our extraordinary world of 'The Martian,' where the mysteries of Mars await your discovery, promising the adventure of a lifetime.</p> <!-- Add your project description here -->
+    </div>
+    </div>
+    <div class="project-image">
+        <img src="./images/calculator.png" alt="calculator" width="220px"/>
+    <div class="caption">
+        <a href="https://tulipreactjsmain.github.io/Kreativestorm4th/" target="_blank"><strong>Calculate with ease</strong></a>
+        <p class="project-description">Experience the power of computation with our sleek and intuitive Calculator. Perform basic arithmetic operations effortlessly, right at your fingertips.</p> <!-- Add your project description here -->
+    </div>
+    </div>
+    <div class="project-image">
+        <img src="./images/game.png" alt="game" width="220px"/>
+    <div class="caption">
+        <a href="https://tulipreactjsmain.github.io/kreativstorm3rd/" target="_blank"><strong> Computer Game</strong></a>
+        <p class="project-description">Dive into our timeless fun of Rock Paper Scissors Game! Test your strategy and luck in this classic game of chance and skill. Come let's play now and enjoy!</p> <!-- Add your project description here -->
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <div class="footer">&copy; 2024 Esethu Pakosi. All rights reserved</div>
 </body>
 </html>
