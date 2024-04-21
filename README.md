@@ -9,14 +9,14 @@ I am a passionate frontend developer with a strong background in HTML, CSS, and 
 ## Skills
 
 
- -Html
- -Css
- -JavaScript
- -React
- -Responsive Design
- -SEO
- -Git
- -User Interface
+ - Html
+ - Css
+ - JavaScript
+ - React
+ - Responsive Design
+ - SEO
+ - Git
+ - User Interface
  -Web Hosting
  
 ## Technologies Used
